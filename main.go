@@ -198,14 +198,14 @@ func main() {
 			}
 			online += fmt.Sprintf("%02d", int(s.Minutes())-60*int(s.Hours()))
 
-			fmt.Printf("%s - %s (%s) | href=https://nyartcc.org/controller/%d\n", ctrl.Callsign, ctrl.Name, online, ctrl.CID)
+			fmt.Printf("%s - %s (%s) | font=Monaco | href=https://nyartcc.org/controller/%d\n", ctrl.Callsign, ctrl.Name, online, ctrl.CID)
 		}
 	}
 
 	// Traffic
 	fmt.Printf("---\n")
 	for _, major := range slices.Sorted(maps.Keys(n90)) {
-		fmt.Printf("%s: %d↗ %d↘ | href=https://vatsim-radar.com/airport/%s\n", major, n90dep[major], n90arr[major], major)
+		fmt.Printf("%s: %2d🛫 %2d🛬 | font=Monaco | href=https://vatsim-radar.com/airport/%s\n", major, n90dep[major], n90arr[major], major)
 	}
 }
 
