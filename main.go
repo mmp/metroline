@@ -205,7 +205,7 @@ func main() {
 	// Traffic
 	fmt.Printf("---\n")
 	for _, major := range slices.Sorted(maps.Keys(n90)) {
-		fmt.Printf("%s: %2d🛫 %2d🛬 | font=Monaco | href=https://vatsim-radar.com/airport/%s\n", major, n90dep[major], n90arr[major], major)
+		fmt.Printf("%s %2d🛫 %2d🛬 | font=Monaco | href=https://vatsim-radar.com/airport/%s\n", major, n90dep[major], n90arr[major], major)
 	}
 }
 
