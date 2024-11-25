@@ -11,5 +11,5 @@ Installation:
 4. Launch `xbar` and select "refresh" in the `xbar` menu (on the right side of your menu bar).
 
 <div class="text-center">
-<img src="metroline.gif" srcset="metroline-2x.gif 2x" width="263" height="206" class="img-fluid">
+<img src="metroline.gif" srcset="metroline-2x.gif 2x" width="301" height="206" class="img-fluid">
 </div>
