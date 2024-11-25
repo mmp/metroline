@@ -31,7 +31,6 @@ jobs:
 
     - name: Build universal binary
       run: |
-        git describe --tags --abbrev=8 --dirty --always --long > resources/version.txt
         CGO_ENABLED=1 GOOS=darwin GOARCH=amd64 go build -tags static -o metroline_amd64 .
         CGO_ENABLED=1 GOOS=darwin GOARCH=arm64 go build -tags static -o metroline_arm64 .
         lipo -create -output metroline.1m.cgo metroline_amd64 metroline_arm64
