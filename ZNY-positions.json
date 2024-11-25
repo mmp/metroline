@@ -1,0 +1,2827 @@
+[
+  {
+    "id": "01GZ9HW46V1A7TZGSACV6QDEFS",
+    "name": "Atlantic 86",
+    "starred": true,
+    "radioName": "New York Center",
+    "callsign": "NY_F_CTR",
+    "frequency": 133500000,
+    "eramConfiguration": {
+      "sectorId": "86"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GA79BV4Y7GAM6KDW703932YY",
+    "name": "Elmira 34",
+    "starred": true,
+    "radioName": "New York Center",
+    "callsign": "NY_W_CTR",
+    "frequency": 132175000,
+    "eramConfiguration": {
+      "sectorId": "34"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YKE0X3VBFP6VCQH0YVC49",
+    "name": "HILDY 81",
+    "starred": true,
+    "radioName": "New York Center",
+    "callsign": "BDA_CTR",
+    "frequency": 128500000,
+    "eramConfiguration": {
+      "sectorId": "81"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01G9NCRNSDHSB0MHD779QM98CY",
+    "name": "Kennedy 56",
+    "starred": true,
+    "radioName": "New York Center",
+    "callsign": "NY_CTR",
+    "frequency": 125325000,
+    "eramConfiguration": {
+      "sectorId": "56"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GA79EZEPGJZHJFKPB6B204SN",
+    "name": "Lancaster 26",
+    "starred": true,
+    "radioName": "New York Center",
+    "callsign": "NY_A_CTR",
+    "frequency": 120025000,
+    "eramConfiguration": {
+      "sectorId": "26"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GA79G5DGGTQX33VCHR641EAH",
+    "name": "Selinsgrove 72",
+    "starred": true,
+    "radioName": "New York Center",
+    "callsign": "NY_D_CTR",
+    "frequency": 127725000,
+    "eramConfiguration": {
+      "sectorId": "72"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01HBBR1SZXAS9HD05401SW1MF9",
+    "name": "TMU 57",
+    "starred": true,
+    "radioName": "ZNY TMU",
+    "callsign": "NY_T_CTR",
+    "frequency": 136500000,
+    "eramConfiguration": {
+      "sectorId": "57"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YC4C83NYXJ1MBYCKT5CBT",
+    "name": "Binghamton 50",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_50_CTR",
+    "frequency": 133350000,
+    "eramConfiguration": {
+      "sectorId": "50"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y478EVBD6N38AQHF6EY4H",
+    "name": "BRNAN 08",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_08_CTR",
+    "frequency": 124775000,
+    "eramConfiguration": {
+      "sectorId": "08"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YDVCZQ57R266RGJXPRREM",
+    "name": "Broadway 74",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_74_CTR",
+    "frequency": 132150000,
+    "eramConfiguration": {
+      "sectorId": "74"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YJJFFCM3DW42WQ1QZYA31",
+    "name": "COCOA 80",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "BDA_C_CTR",
+    "frequency": 119100000,
+    "eramConfiguration": {
+      "sectorId": "80"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YA1V5P52M7RYDQW9JHXGX",
+    "name": "DIXIE 68",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_68_CTR",
+    "frequency": 118975000,
+    "eramConfiguration": {
+      "sectorId": "68"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H0ZBH38P0TXX9NKWAH2P9H9F",
+    "name": "East Texas 42",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_42_CTR",
+    "frequency": 127175000,
+    "eramConfiguration": {
+      "sectorId": "42"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YHNGB4NGS71C9M8PDND9A",
+    "name": "HANRI 83",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_83_CTR",
+    "frequency": 133525000,
+    "eramConfiguration": {
+      "sectorId": "83"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y78NPNHKJT3747EJ9ZGPB",
+    "name": "Harrisburg 10",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_10_CTR",
+    "frequency": 133475000,
+    "eramConfiguration": {
+      "sectorId": "10"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YAMA6B796GVKECEDYDVMH",
+    "name": "Huguenot 35",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_35_CTR",
+    "frequency": 132600000,
+    "eramConfiguration": {
+      "sectorId": "35"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YG74F7235QW469NDVCRKT",
+    "name": "JOBOC 65",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_65_CTR",
+    "frequency": 125925000,
+    "eramConfiguration": {
+      "sectorId": "65"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YCK7FX1H5Y5N6R1KPKKHT",
+    "name": "Lake Henry 51",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_51_CTR",
+    "frequency": 134450000,
+    "eramConfiguration": {
+      "sectorId": "51"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YGSMXQZQWGX7J3T1W5058",
+    "name": "MANTA 66",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_66_CTR",
+    "frequency": 128300000,
+    "eramConfiguration": {
+      "sectorId": "66"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y8AMJAZJR1025GMBPWH6S",
+    "name": "Middletown 27",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_27_CTR",
+    "frequency": 132200000,
+    "eramConfiguration": {
+      "sectorId": "27"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YEDD79731NXCGK0YY5ZHX",
+    "name": "Milton 75",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_75_CTR",
+    "frequency": 128575000,
+    "eramConfiguration": {
+      "sectorId": "75"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y7TX8GJ4TZRZ2XXB4EAB7",
+    "name": "Modena 25",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_25_CTR",
+    "frequency": 135450000,
+    "eramConfiguration": {
+      "sectorId": "25"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YJ3PADX9A9TSQWVKG0592",
+    "name": "OHRYN 85",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_85_CTR",
+    "frequency": 121125000,
+    "eramConfiguration": {
+      "sectorId": "85"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YH4ZKKHG0YHB231NG7JPZ",
+    "name": "PAEPR 82",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_82_CTR",
+    "frequency": 126025000,
+    "eramConfiguration": {
+      "sectorId": "82"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y8Z1JWB5FS1SA8ZVQXMKQ",
+    "name": "PARKE 39",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_39_CTR",
+    "frequency": 132100000,
+    "eramConfiguration": {
+      "sectorId": "39"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YDDC5CNHKMFQEMDZWVCTP",
+    "name": "Philipsburg 73",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_73_CTR",
+    "frequency": 132875000,
+    "eramConfiguration": {
+      "sectorId": "73"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YF7C54GSQG3A8HFEKENJQ",
+    "name": "Pottstown 92",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_92_CTR",
+    "frequency": 124625000,
+    "eramConfiguration": {
+      "sectorId": "92"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YB4E4Z5EYEZR6KZJTG4MV",
+    "name": "Sparta 36",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_36_CTR",
+    "frequency": 133150000,
+    "eramConfiguration": {
+      "sectorId": "36"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YBPE28SSZEVMFDH8N0RWB",
+    "name": "Stony Fork 49",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_49_CTR",
+    "frequency": 121325000,
+    "eramConfiguration": {
+      "sectorId": "49"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YFJ2ACJGGAFPZ835A8XWG",
+    "name": "Swissdale 93",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_93_CTR",
+    "frequency": 123625000,
+    "eramConfiguration": {
+      "sectorId": "93"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y6J08R325EYVY1MVH6M6A",
+    "name": "Westminster 09",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_09_CTR",
+    "frequency": 134325000,
+    "eramConfiguration": {
+      "sectorId": "09"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17YESYEYE3RPPW8D9A7VWB0",
+    "name": "Williamsport 91",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_91_CTR",
+    "frequency": 134800000,
+    "eramConfiguration": {
+      "sectorId": "91"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H17Y9FM7ATFX9XBJBNGB7PC1",
+    "name": "Yardley 55",
+    "starred": false,
+    "radioName": "New York Center",
+    "callsign": "NY_55_CTR",
+    "frequency": 134600000,
+    "eramConfiguration": {
+      "sectorId": "55"
+    },
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GAPTEA57WFPKXQ6W5Q4EN5YT",
+    "name": "Islip",
+    "starred": true,
+    "radioName": "New York Approach",
+    "callsign": "ISP_H_APP",
+    "frequency": 134550000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "H",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSNCNEEV7CXA9FN4056HMR",
+    "name": "CAMRN",
+    "starred": true,
+    "radioName": "New York Approach",
+    "callsign": "JFK_G_APP",
+    "frequency": 128125000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "G",
+      "areaId": "01G90TWZ13C1NSNZEBKJ91GPTY",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPR8VCH35D91MJZM2JS1K83",
+    "name": "HAARP",
+    "starred": true,
+    "radioName": "New York Approach",
+    "callsign": "LGA_V_APP",
+    "frequency": 120800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "V",
+      "areaId": "01G90V075MNB7D37NG5WT8TDYS",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPT9KP6T5VCQ9B3MFCTJPHW",
+    "name": "Liberty East",
+    "starred": true,
+    "radioName": "New York Departure",
+    "callsign": "NY_L_APP",
+    "frequency": 126800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "E",
+      "areaId": "01G90V8644BH4VJVWFY4T9CK57",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSTK61W2CT21KA4VM7P62S",
+    "name": "Yardley",
+    "starred": true,
+    "radioName": "New York Approach",
+    "callsign": "EWR_P_APP",
+    "frequency": 128550000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "P",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSP6AT7JCY8DRE0V578518",
+    "name": "Kennedy Departure",
+    "starred": true,
+    "radioName": "New York Departure",
+    "callsign": "JFK_DEP",
+    "frequency": 135900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "J",
+      "areaId": "01G90TWZ13C1NSNZEBKJ91GPTY",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPR77JG1B7MBZG6GHP7P2Z0",
+    "name": "LaGuardia Departure",
+    "starred": true,
+    "radioName": "New York Departure",
+    "callsign": "LGA_DEP",
+    "frequency": 120400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01G90V075MNB7D37NG5WT8TDYS",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSRW7GX1XPFXGVEA2WHAQ2",
+    "name": "Newark Departure",
+    "starred": true,
+    "radioName": "New York Departure",
+    "callsign": "EWR_DEP",
+    "frequency": 119200000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "N",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTM0ANFHADD6Z0JM3VZGNJ",
+    "name": "BEADS High",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "ISP_B_APP",
+    "frequency": 125975000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "B",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTK8AQPHT2BYBPZG8Y6J6X",
+    "name": "BEADS Low",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "ISP_I_APP",
+    "frequency": 118950000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "I",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTF2SHPPZT3GEC1ZT3RAVQ",
+    "name": "Calverton",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "ISP_N_APP",
+    "frequency": 120050000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "N",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTJC2599K44NS5PC6Z70PP",
+    "name": "LOVES",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "ISP_Z_APP",
+    "frequency": 124075000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "Z",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTGGCZS8RBPAMH2E32ZVEY",
+    "name": "SEALL",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "ISP_R_APP",
+    "frequency": 133100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "R",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTH7XAHK6APZKNMBVCYAJ5",
+    "name": "VIKKY",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "ISP_O_APP",
+    "frequency": 128625000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "O",
+      "areaId": "01G90V5G8SJA8WB4RM9N2RW22X",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSKE7VB3ZEB57HJRA0VH8D",
+    "name": "Kennedy Final Vector",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "JFK_A_APP",
+    "frequency": 132400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "A",
+      "areaId": "01G90TWZ13C1NSNZEBKJ91GPTY",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSQX1DMEJE5KMSKQ3EKWE3",
+    "name": "Kennedy Satellite",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "JFK_M_APP",
+    "frequency": 118400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "M",
+      "areaId": "01G90TWZ13C1NSNZEBKJ91GPTY",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSQ38W0Y95P019454KYF8V",
+    "name": "ROBER",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "JFK_K_APP",
+    "frequency": 125700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "K",
+      "areaId": "01G90TWZ13C1NSNZEBKJ91GPTY",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPRBNAPPGWEK485DD8XJT4Q",
+    "name": "EMPYR",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "LGA_D_APP",
+    "frequency": 127300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "D",
+      "areaId": "01G90V075MNB7D37NG5WT8TDYS",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPR9Z2KGJ3HCJRXPY33S1JY",
+    "name": "LaGuardia Final Vector",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "LGA_F_APP",
+    "frequency": 134900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "F",
+      "areaId": "01G90V075MNB7D37NG5WT8TDYS",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPRCF3WFDJTGS03NQHTA9B1",
+    "name": "NOBBI",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "LGA_X_APP",
+    "frequency": 126400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "X",
+      "areaId": "01G90V075MNB7D37NG5WT8TDYS",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTDFQ81GHMFES2CJFDR8MP",
+    "name": "Liberty Catskill",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "SWF_APP",
+    "frequency": 132750000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "H",
+      "areaId": "01G90V8644BH4VJVWFY4T9CK57",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTN1RXANQF23CT06B113TW",
+    "name": "ROBER (Combined)",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "NY_APP",
+    "frequency": 125700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "K",
+      "areaId": "01GAPT17CK7V0PN20N966PJQZW",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H9VGNG0TFXYE91MQEY2KGXZW",
+    "name": "HAARP (Combined)",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "NY_APP",
+    "frequency": 120800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "V",
+      "areaId": "01GAPT17CK7V0PN20N966PJQZW",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H9VGKGH8YF05SWEFN1QP6Y9Z",
+    "name": "Yardley (Combined)",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "NY_APP",
+    "frequency": 128550000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "P",
+      "areaId": "01GAPT17CK7V0PN20N966PJQZW",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPT0CC5P7RMMTHQQ14Y8AB8",
+    "name": "METRO",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "EWR_H_APP",
+    "frequency": 132800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "H",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSXTAKVHXQSEHCB6QSFJGF",
+    "name": "MUGZY",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "EWR_U_APP",
+    "frequency": 127600000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "U",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H5RVCAEDZCFYQH9HR3AGY7WF",
+    "name": "Newark Final Vector 22",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "EWR_Q_APP",
+    "frequency": 125500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "M",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSVGZPPCW3QCETXWAQZ521",
+    "name": "Newark Final Vector 4",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "EWR_Q_APP",
+    "frequency": 125500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "Q",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSWWCPNRNBRD5H6GGK5VP2",
+    "name": "Newark North Arrival",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "EWR_A_APP",
+    "frequency": 120150000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "A",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPSZ5WR9B6F3577YR8EM5ES",
+    "name": "ZEEBO",
+    "starred": false,
+    "radioName": "New York Approach",
+    "callsign": "EWR_S_APP",
+    "frequency": 123775000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "S",
+      "areaId": "01G90V2ZRAJEHWM0YFNY2HHH9C",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01HFGMW7E1WZPWF3KATRMFH07J",
+    "name": "Timelapse",
+    "starred": false,
+    "radioName": "N90 TMU",
+    "callsign": "NY_T_APP",
+    "frequency": 136500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 7,
+      "sectorId": "T",
+      "areaId": "01HFJAB31C9DYVN54XZ1M7RA44",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01HBH8YNJ1X1DB9359J2PMM6Y8",
+    "name": "TMUAR",
+    "starred": false,
+    "radioName": "N90 TMU",
+    "callsign": "NY_T_APP",
+    "frequency": 136500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 7,
+      "sectorId": "A",
+      "areaId": "01HFJAB31C9DYVN54XZ1M7RA44",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01HBHK07T8KRAERH9EBRHA7KMK",
+    "name": "TMUOM",
+    "starred": false,
+    "radioName": "N90 TMU",
+    "callsign": "NY_T_APP",
+    "frequency": 136500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 7,
+      "sectorId": "M",
+      "areaId": "01HFJAB31C9DYVN54XZ1M7RA44",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPRAY0CH9W65J07QTAG3T2Z",
+    "name": "NYACK",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "LGA_Y_DEP",
+    "frequency": 120550000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Y",
+      "areaId": "01G90V075MNB7D37NG5WT8TDYS",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTBEE5MGZSK43XD7KT3Q2Q",
+    "name": "Liberty North",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "NY_LN_DEP",
+    "frequency": 118175000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "T",
+      "areaId": "01G90V8644BH4VJVWFY4T9CK57",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTC9CX7YFZDFMJFA69KG5T",
+    "name": "Liberty South",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "NY_LS_DEP",
+    "frequency": 124750000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "S",
+      "areaId": "01G90V8644BH4VJVWFY4T9CK57",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPTANNE78MK3PY305MRD1CK",
+    "name": "Liberty West",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "NY_LW_DEP",
+    "frequency": 120850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "W",
+      "areaId": "01G90V8644BH4VJVWFY4T9CK57",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H9VGSM6TEZQXN6PEBKSJG6N0",
+    "name": "Kennedy Departure (Combined)",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "NY_DEP",
+    "frequency": 135900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "J",
+      "areaId": "01GAPT17CK7V0PN20N966PJQZW",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H9VGPETX40JCJ6T7Z2PYG5KH",
+    "name": "LaGuardia Departure (Combined)",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "NY_DEP",
+    "frequency": 120400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01GAPT17CK7V0PN20N966PJQZW",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H9VGQVGCYFJ50RDTAD53BZW9",
+    "name": "Newark Departure (Combined)",
+    "starred": false,
+    "radioName": "New York Departure",
+    "callsign": "NY_DEP",
+    "frequency": 119200000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "N",
+      "areaId": "01GAPT17CK7V0PN20N966PJQZW",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90KNWJM218C4KAPBC6Q19C0",
+    "name": "Local 1",
+    "starred": true,
+    "radioName": "Kennedy Tower",
+    "callsign": "JFK_TWR",
+    "frequency": 119100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "W",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90KMG3JGEBTJQ8HP02S6E13",
+    "name": "Ground",
+    "starred": true,
+    "radioName": "Kennedy Ground",
+    "callsign": "JFK_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "W",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90KKTV64WS7N3MEZW469BKR",
+    "name": "Clearance Delivery",
+    "starred": true,
+    "radioName": "Kennedy Clearance",
+    "callsign": "JFK_DEL",
+    "frequency": 135050000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "W",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90KPZXKC83MZFJMGADZ7XSP",
+    "name": "CBA",
+    "starred": false,
+    "radioName": "Kennedy Tower",
+    "callsign": "JFK_B_TWR",
+    "frequency": 125250000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "7",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90KP7PZBA8MSCQAHFD5CK5X",
+    "name": "Local 2",
+    "starred": false,
+    "radioName": "Kennedy Tower",
+    "callsign": "JFK_TWR",
+    "frequency": 123900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "9",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90KN8MRR596JSRWSBHMB2A6",
+    "name": "Ground (Secondary)",
+    "starred": false,
+    "radioName": "Kennedy Ground",
+    "callsign": "JFK_GND",
+    "frequency": 121650000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "W",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01HHWKRDJVBP2KG6KS9XK17XWA",
+    "name": "CIC",
+    "starred": false,
+    "radioName": "Kennedy Tower",
+    "callsign": "JFK_TWR",
+    "frequency": 119100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "W",
+      "areaId": "01H2V643AWWPXYN3NN5RRWM9G1",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GTJ6G404SXRG9RSC5TB96N3T",
+    "name": "GC",
+    "runwayIds": []
+  },
+  {
+    "id": "01H999QG5JB4H8RSGX4RS99HEB",
+    "name": "LC1 ",
+    "runwayIds": [
+      "13L-31R",
+      "4R-22L"
+    ]
+  },
+  {
+    "id": "01H999QGC7XW7P937P73SY97RW",
+    "name": "LC2",
+    "runwayIds": [
+      "13R-31L",
+      "4L-22R"
+    ]
+  },
+  {
+    "id": "01G90J7J52MG8KEY6M2BMAKYV5",
+    "name": "Local",
+    "starred": true,
+    "radioName": "LaGuardia Tower",
+    "callsign": "LGA_TWR",
+    "frequency": 118700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "I",
+      "areaId": "01H2V5YZHBTGVVS3WP2B5JQ35S",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90J6E5RXE2C0N85B40KK4WP",
+    "name": "Ground ",
+    "starred": true,
+    "radioName": "LaGuardia Ground",
+    "callsign": "LGA_GND",
+    "frequency": 121700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "I",
+      "areaId": "01H2V5YZHBTGVVS3WP2B5JQ35S",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90J5AD5WRX2XWKR9GKPCJ79",
+    "name": "Clearance Delivery",
+    "starred": true,
+    "radioName": "LaGuardia Clearance Delivery",
+    "callsign": "LGA_DEL",
+    "frequency": 135200000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "I",
+      "areaId": "01H2V5YZHBTGVVS3WP2B5JQ35S",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90J85NXYFAKWNE2274PBJ7X",
+    "name": "Class B",
+    "starred": false,
+    "radioName": "LaGuardia Tower",
+    "callsign": "LGA_B_TWR",
+    "frequency": 126050000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Q",
+      "areaId": "01H2V5YZHBTGVVS3WP2B5JQ35S",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90J6ZNTQCPFV4FX9ECZNAA8",
+    "name": "Ground (Secondary)",
+    "starred": false,
+    "radioName": "LaGuardia Ground",
+    "callsign": "LGA_GND",
+    "frequency": 121850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "I",
+      "areaId": "01H2V5YZHBTGVVS3WP2B5JQ35S",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GTJ6G404PH7ZX9QAA2RGZETA",
+    "name": "GC",
+    "runwayIds": []
+  },
+  {
+    "id": "01HABRMK74JW55W790B1YBP2ZV",
+    "name": "LCL",
+    "runwayIds": [
+      "13-31",
+      "4-22"
+    ]
+  },
+  {
+    "id": "01G90MDC9H4TGMFH3P57FQARPE",
+    "name": "Local",
+    "starred": true,
+    "radioName": "Newark Tower",
+    "callsign": "EWR_TWR",
+    "frequency": 118300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "Z",
+      "areaId": "01H2V65ZY3RY61EM269H7KDRNZ",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90MCWBP8SPPPT3JEH42AQXW",
+    "name": "Ground",
+    "starred": true,
+    "radioName": "Newark Ground",
+    "callsign": "EWR_GND",
+    "frequency": 121800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "Z",
+      "areaId": "01H2V65ZY3RY61EM269H7KDRNZ",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90MCBNWG0PGSB9Y2VZE500K",
+    "name": "Clearance Delivery",
+    "starred": true,
+    "radioName": "Newark Clearance Delivery",
+    "callsign": "EWR_DEL",
+    "frequency": 118850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "Z",
+      "areaId": "01H2V65ZY3RY61EM269H7KDRNZ",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90MDXGJTGEQ6DFMD4R17BQ7",
+    "name": "Class B",
+    "starred": false,
+    "radioName": "Newark Tower",
+    "callsign": "EWR_B_TWR",
+    "frequency": 127850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "B",
+      "areaId": "01H2V65ZY3RY61EM269H7KDRNZ",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GTJ6G405282X9P5Q5ZFBKNCC",
+    "name": "GC",
+    "runwayIds": []
+  },
+  {
+    "id": "01H2W28RXH8QXNN4CPW12FYAKQ",
+    "name": "LCL",
+    "runwayIds": [
+      "11-29",
+      "4L-22R",
+      "4R-22L"
+    ]
+  },
+  {
+    "id": "01G9140SY3XC0GN6XGZSETWV2H",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Long Island Tower",
+    "callsign": "ISP_TWR",
+    "frequency": 119300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "3",
+      "areaId": "01H9V9N0QZT6M7GB50SDXGKV0K",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G914086JQH4D90XSNBSA3MPC",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Long Island Ground",
+    "callsign": "ISP_GND",
+    "frequency": 135300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "3",
+      "areaId": "01H9V9N0QZT6M7GB50SDXGKV0K",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G913YX9Y9AJPWNFVKCE4DVE8",
+    "name": "Clearance Delivery ",
+    "starred": false,
+    "radioName": "Long Island Clearance Delivery",
+    "callsign": "ISP_DEL",
+    "frequency": 121850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "3",
+      "areaId": "01H9V9N0QZT6M7GB50SDXGKV0K",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9142A1NQ4BWHHW74652BDFH",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Bridgeport Tower",
+    "callsign": "BDR_TWR",
+    "frequency": 120900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "5",
+      "areaId": "01H9V7G25HNGQSGN4VE9S69MTM",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9141Q2FQ31R8BJVS3HSR7QG",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Bridgeport Ground",
+    "callsign": "BDR_GND",
+    "frequency": 121750000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "5",
+      "areaId": "01H9V7G25HNGQSGN4VE9S69MTM",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9145FYZZT6YSREDTYJ0G2P4",
+    "name": "Local",
+    "starred": false,
+    "radioName": "New Haven Tower",
+    "callsign": "HVN_TWR",
+    "frequency": 124800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "7",
+      "areaId": "01H9V9PQQTCH222JW2MMGF2N6M",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9144ZNC0TX16FKA7291KD1R",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "New Haven Ground",
+    "callsign": "HVN_GND",
+    "frequency": 121700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "7",
+      "areaId": "01H9V9PQQTCH222JW2MMGF2N6M",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9146XPCK7C5AM7X0S8QZY59",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Oxford Tower",
+    "callsign": "OXC_TWR",
+    "frequency": 118475000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "9",
+      "areaId": "01H9V9Z78ZJ8T0XR9PX458GNFQ",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9146FHZQN03VYE48JJ0GR92",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Oxford Ground",
+    "callsign": "OXC_GND",
+    "frequency": 121650000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "9",
+      "areaId": "01H9V9Z78ZJ8T0XR9PX458GNFQ",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9148Y3X5HYNNR99J9BT9AMD",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Suffolk Tower",
+    "callsign": "FOK_TWR",
+    "frequency": 125300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "4",
+      "areaId": "01H9V8ENFCR4NVHQ00BSGYB86K",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G9148BYV2Q0RSRPQNAEY7VCB",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Suffolk Ground",
+    "callsign": "FOK_GND",
+    "frequency": 121800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 3,
+      "sectorId": "4",
+      "areaId": "01H9V8ENFCR4NVHQ00BSGYB86K",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G914G0552TXAM321230F9TET",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Teterboro Tower",
+    "callsign": "TEB_TWR",
+    "frequency": 119500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "J",
+      "areaId": "01H2V685342AMJ7M1JYW8XNAX2",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G914DXYZQQ915J25J5QZR2VJ",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Teterboro Ground",
+    "callsign": "TEB_GND",
+    "frequency": 121950000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "J",
+      "areaId": "01H2V685342AMJ7M1JYW8XNAX2",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G914BKDJB58VTK5SA4XXMAFA",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Teterboro Clearance Delivery ",
+    "callsign": "TEB_DEL",
+    "frequency": 128050000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "J",
+      "areaId": "01H2V685342AMJ7M1JYW8XNAX2",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ593PS10WST1YVQYSP1CC",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Caldwell Tower",
+    "callsign": "CDW_TWR",
+    "frequency": 119800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "1",
+      "areaId": "01H5RTHH874AW7AG14E16NR8J5",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ4SDTM9H6GVGF6KJ0NHR2",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Caldwell Ground",
+    "callsign": "CDW_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "1",
+      "areaId": "01H5RTHH874AW7AG14E16NR8J5",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ3KPJG4K2DZNGEB3Q6Y37",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Caldwell Clearance Delivery",
+    "callsign": "CDW_DEL",
+    "frequency": 121100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "1",
+      "areaId": "01H5RTHH874AW7AG14E16NR8J5",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQRPY40PY12GM9WS8S9DCF",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Morristown Tower",
+    "callsign": "MMU_TWR",
+    "frequency": 118100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "5",
+      "areaId": "01H9VA1B0WPYHHWWJCT4RVE5JD",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQR8J8EHDT5GP0TNQY928Q",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Morristown Ground",
+    "callsign": "MMU_GND",
+    "frequency": 134200000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "5",
+      "areaId": "01H9VA1B0WPYHHWWJCT4RVE5JD",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQQ81XVS751MRT9VMHM8KD",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Morristown Clearance",
+    "callsign": "MMU_DEL",
+    "frequency": 128600000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 4,
+      "sectorId": "5",
+      "areaId": "01H9VA1B0WPYHHWWJCT4RVE5JD",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQDQZG1YZ4ECYHH31TW1VV",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Westchester Tower",
+    "callsign": "HPN_TWR",
+    "frequency": 118575000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "W",
+      "areaId": "01H2V69PFWAAR7PV8KPW1F439N",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQD5KP58FABVJDHHZRNEMK",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Westchester Ground",
+    "callsign": "HPN_GND",
+    "frequency": 121825000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "W",
+      "areaId": "01H2V69PFWAAR7PV8KPW1F439N",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQC9CVACHE8JE7CWZHCCBE",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Westchester Clearance Delivery",
+    "callsign": "HPN_DEL",
+    "frequency": 127250000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "W",
+      "areaId": "01H2V69PFWAAR7PV8KPW1F439N",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ93NMJJJRCNGSKPWD0ZNT",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Danbury Tower",
+    "callsign": "DXR_TWR",
+    "frequency": 119400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "4",
+      "areaId": "01H5RTG0X0CMNB3N2B6ZW16ME6",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ8P08TCGJXNVMZ53ZTE4A",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Danbury Ground",
+    "callsign": "DXR_GND",
+    "frequency": 128600000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "4",
+      "areaId": "01H5RTG0X0CMNB3N2B6ZW16ME6",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQB9XBPPBTHBCT2SSC9T9K",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Republic Tower",
+    "callsign": "FRG_TWR",
+    "frequency": 118800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "P",
+      "areaId": "01H9V8N99P5MDTNVB7XPMVR51Q",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQAY5X5A76TYF3MMBW9PMW",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Republic Ground",
+    "callsign": "FRG_GND",
+    "frequency": 121600000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "P",
+      "areaId": "01H9V8N99P5MDTNVB7XPMVR51Q",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQABKKSCD8DH90P5F48S1Q",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Republic Clearance Delivery",
+    "callsign": "FRG_DEL",
+    "frequency": 128250000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 2,
+      "sectorId": "P",
+      "areaId": "01H9V8N99P5MDTNVB7XPMVR51Q",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPR043GSY289FGKS4NAXSZC",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Dutchess County Tower",
+    "callsign": "POU_TWR",
+    "frequency": 124000000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "P",
+      "areaId": "01H9VEW4CW4516D3K2WD1XVWXH",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQZFF7T078NA9M0DHQTGV8",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Dutchess County Ground",
+    "callsign": "POU_GND",
+    "frequency": 121800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "P",
+      "areaId": "01H9VEW4CW4516D3K2WD1XVWXH",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H17WNRG5P1M3DD3PH6TZHD3K",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Stewart Tower",
+    "callsign": "SWF_TWR",
+    "frequency": 121000000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "N",
+      "areaId": "01H9VEY3EE46E6GCFDNNM0TAKW",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H17WPF93MW8RK51W8G78Z91C",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Stewart Ground",
+    "callsign": "SWF_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 5,
+      "sectorId": "N",
+      "areaId": "01H9VEY3EE46E6GCFDNNM0TAKW",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01HCP0SD68QWKK5VPX07BX1CBB",
+    "name": "Local",
+    "starred": false,
+    "radioName": "East Hampton Tower",
+    "callsign": "JPX_TWR",
+    "frequency": 125225000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01HCP0VSNJ60YKTWP3H9D4EKEJ",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "East Hampton Ground",
+    "callsign": "JPX_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01G90PADSWVAJ9M6HC0DVRNT89",
+    "name": "North Arrival",
+    "starred": true,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_NA_APP",
+    "frequency": 128400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "N",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90P14023PKT3WQT9NBBC0K3",
+    "name": "North Departure",
+    "starred": true,
+    "radioName": "Philadelphia Departure",
+    "callsign": "PHL_ND_DEP",
+    "frequency": 124350000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "E",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90N0PBQ4FRX6YBV2B66XFQW",
+    "name": "Local East",
+    "starred": true,
+    "radioName": "Philadelphia Tower",
+    "callsign": "PHL_TWR",
+    "frequency": 118500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Q",
+      "areaId": "01H2V6M19WKNJAA3JPZKC0CAB7",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90MY85454KB6Z7KJVE221W3",
+    "name": "Ground",
+    "starred": true,
+    "radioName": "Philadelphia Ground",
+    "callsign": "PHL_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Q",
+      "areaId": "01H2V6M19WKNJAA3JPZKC0CAB7",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90MMFJ3S68Z22RCSYVVPTK6",
+    "name": "Clearance Delivery",
+    "starred": true,
+    "radioName": "Philadelphia Clearance Delivery",
+    "callsign": "PHL_DEL",
+    "frequency": 118850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Q",
+      "areaId": "01H2V6M19WKNJAA3JPZKC0CAB7",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90PNDS9NZP8P69088RYGKNV",
+    "name": "Dupont",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_DU_APP",
+    "frequency": 118350000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "D",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90PCERRTP3952MDRDM4W60E",
+    "name": "Final Vector 1",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_F1_APP",
+    "frequency": 125400000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "F",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90PDHVKD2FEBBQS8MJQZ1QA",
+    "name": "Final Vector 2",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_F2_APP",
+    "frequency": 132675000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90PP995VXTS3J1D1R9FPJKK",
+    "name": "Pottstown",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_PT_APP",
+    "frequency": 126850000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "P",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90PB7FJEXK741B0NHFE8T02",
+    "name": "South Arrival",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_SA_APP",
+    "frequency": 133875000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "S",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01HM475885VSYBESE97CT8VF3X",
+    "name": "TMU",
+    "starred": false,
+    "radioName": "PHL TMU",
+    "callsign": "PHL_T_APP",
+    "frequency": 136500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90PM4HHY8A8GW6Z24990BFT",
+    "name": "Woodstown",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_WD_APP",
+    "frequency": 127350000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "W",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90PPZ680XN7NNMCKA05PJ3Y",
+    "name": "Yardley",
+    "starred": false,
+    "radioName": "Philadelphia Approach",
+    "callsign": "PHL_YD_APP",
+    "frequency": 123800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Y",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90P2CES6SAE6CYVHFBVSH6G",
+    "name": "North Departure High",
+    "starred": false,
+    "radioName": "Philadelphia Departure",
+    "callsign": "PHL_NH_DEP",
+    "frequency": 126075000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "H",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90P5VYM5E3PG8DXBFKE3M1R",
+    "name": "South Departure",
+    "starred": false,
+    "radioName": "Philadelphia Departure",
+    "callsign": "PHL_SD_DEP",
+    "frequency": 119750000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "V",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90P6R516XGB776QQDXNJ84P",
+    "name": "South Departure High",
+    "starred": false,
+    "radioName": "Philadelphia Departure",
+    "callsign": "PHL_SH_DEP",
+    "frequency": 126600000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "J",
+      "areaId": "01G90MJASN47WFA1BJVQZSVHMZ",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01G90N1HSZHVH2H4NPBZ8YYFES",
+    "name": "Local West",
+    "starred": false,
+    "radioName": "Philadelphia Tower",
+    "callsign": "PHL_W_TWR",
+    "frequency": 135100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "B",
+      "areaId": "01H2V6M19WKNJAA3JPZKC0CAB7",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01G90MZ4KHSMN1MZA8WRREXH0M",
+    "name": "Ground (Secondary)",
+    "starred": false,
+    "radioName": "Philadelphia Ground",
+    "callsign": "PHL_W_GND",
+    "frequency": 121650000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Q",
+      "areaId": "01H2V6M19WKNJAA3JPZKC0CAB7",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQHBKJAVGCEGEPS0859J3B",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "Wilmington Tower",
+    "callsign": "ILG_TWR",
+    "frequency": 126000000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "U",
+      "areaId": "01H9VB3Y847S8RZ7A9KFNY9YXN",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQGSC5PMCG40FE9KMXK6EN",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Wilmington Ground",
+    "callsign": "ILG_GND",
+    "frequency": 121700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "U",
+      "areaId": "01H9VB3Y847S8RZ7A9KFNY9YXN",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQF925BFXVRWMNA562JESN",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Wilmington Clearance Delivery",
+    "callsign": "ILG_DEL",
+    "frequency": 119950000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "U",
+      "areaId": "01H9VB3Y847S8RZ7A9KFNY9YXN",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQY01J7QMNSGF34DC551HR",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "Northeast Philadelphia Tower",
+    "callsign": "PNE_TWR",
+    "frequency": 126900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "A",
+      "areaId": "01H9VAZW3HWH1J2V0XPBP7P1JW",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQXA9F9JBKSY0HQ0FZE4WA",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Northeast Philadelphia Ground",
+    "callsign": "PNE_GND",
+    "frequency": 121700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "A",
+      "areaId": "01H9VAZW3HWH1J2V0XPBP7P1JW",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQW42A6CXB1XKV1QNY01A4",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Northeast Philadelphia Clearance Delivery ",
+    "callsign": "PNE_DEL",
+    "frequency": 127250000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "A",
+      "areaId": "01H9VAZW3HWH1J2V0XPBP7P1JW",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPR1CW6S4JDDH0KENZQX9W6",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "Trenton Tower",
+    "callsign": "TTN_TWR",
+    "frequency": 120700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Z",
+      "areaId": "01H9VB2SYJR5SNA02BWX6WR82D",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPR0YQGB9M5809TDSKF9B6S",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Trenton Ground",
+    "callsign": "TTN_GND",
+    "frequency": 121925000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Z",
+      "areaId": "01H9VB2SYJR5SNA02BWX6WR82D",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GTJ6G4051PFR2BGEAPDWMFPV",
+    "name": "GC",
+    "runwayIds": []
+  },
+  {
+    "id": "01HARVZZD49M36FJ1PT9VNSVB5",
+    "name": "LCE",
+    "runwayIds": [
+      "17-35",
+      "8-26",
+      "9L-27R"
+    ]
+  },
+  {
+    "id": "01HARW0MC134XD7K2XBRQW0EQE",
+    "name": "LCW",
+    "runwayIds": [
+      "9R-27L"
+    ]
+  },
+  {
+    "id": "01H2BAYRJNW4AJQ6K79JHRBYS5",
+    "name": "South (Elmira)",
+    "starred": true,
+    "radioName": "Elmira Approach",
+    "callsign": "ELM_S_APP",
+    "frequency": 128425000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "E",
+      "areaId": "01H2BAQRM06JY06E4JMXD93D6A",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H2BAXFTK80W0GVXZB8V8TFAM",
+    "name": "North (Ithica)",
+    "starred": false,
+    "radioName": "Elmira Approach",
+    "callsign": "ELM_N_APP",
+    "frequency": 124300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "I",
+      "areaId": "01H2BAQRM06JY06E4JMXD93D6A",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPPS6NGE5GQFEWM2YHDM47B",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Elmira Tower",
+    "callsign": "ELM_TWR",
+    "frequency": 121100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V71CF56V54TAJY6ZF453T3",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPRN12ZJ7WPT6JETR942Y5",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Elmira Ground",
+    "callsign": "ELM_GND",
+    "frequency": 121950000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V71CF56V54TAJY6ZF453T3",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQK2X7YJEE09QPVBZ6K1J7",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Ithaca Tower",
+    "callsign": "ITH_TWR",
+    "frequency": 119600000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GAPQJN3QA315JY9X6YPZD5YF",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Ithaca Ground",
+    "callsign": "ITH_GND",
+    "frequency": 121800000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GZ9JD64P9TK72432M39VW6NK",
+    "name": "Arrival Radar",
+    "starred": true,
+    "radioName": "Allentown Approach",
+    "callsign": "ABE_APP",
+    "frequency": 119650000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "A",
+      "areaId": "01GKYQEKA5KNGJ31YFSBYXM9TV",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GKYQJCTR0T1GR5XM6E54KCZJ",
+    "name": "Departure Radar",
+    "starred": false,
+    "radioName": "Allentown Departure",
+    "callsign": "ABE_DEP",
+    "frequency": 124450000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "D",
+      "areaId": "01GKYQEKA5KNGJ31YFSBYXM9TV",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPPG3HTHKP0HZ1YGNNWJG6A",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Allentown Tower",
+    "callsign": "ABE_TWR",
+    "frequency": 120500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V6VKN0GWPT61K7C7W6KV2P",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPFKM7T36G95JN5TCEGY8G",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Allentown Ground",
+    "callsign": "ABE_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V6VKN0GWPT61K7C7W6KV2P",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPDKXMRGS3E4AJ8P4Z1T1G",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Allentown Clearance Delivery",
+    "callsign": "ABE_DEL",
+    "frequency": 124050000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V6VKN0GWPT61K7C7W6KV2P",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H2BDPV944P241MYY1Y9DMJWD",
+    "name": "North Approach",
+    "starred": true,
+    "radioName": "Wilkes Barre Approach",
+    "callsign": "AVP_N_APP",
+    "frequency": 120950000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "B",
+      "areaId": "01H2BDDZMZPCWSGQQYFPG4V21A",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H2BDNCNVNTGBJP4C1V1BTJ0Y",
+    "name": "South Approach",
+    "starred": false,
+    "radioName": "Wilkes Barre Approach",
+    "callsign": "AVP_S_APP",
+    "frequency": 126300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "E",
+      "areaId": "01H2BDDZMZPCWSGQQYFPG4V21A",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPPJKTBN922QQTK18387CA6",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Wilkes Barre Tower",
+    "callsign": "AVP_TWR",
+    "frequency": 120100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01H9V6WYMQHHFMW5ZZWAW028EG",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPHT2EK5Z5JJBX7DERDNJ8",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Wilkes Barre Ground",
+    "callsign": "AVP_GND",
+    "frequency": 121925000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01H9V6WYMQHHFMW5ZZWAW028EG",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H2BD14Z727T6GAYAX7EBZ8BV",
+    "name": "Radar Low",
+    "starred": true,
+    "radioName": "Binghamton Approach",
+    "callsign": "BGM_L_APP",
+    "frequency": 118600000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "G",
+      "areaId": "01H2BCVDVZR0NVNZCYQ1MSM92W",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H2BD22RHQCGGMC8MRN6QWMKJ",
+    "name": "Radar High",
+    "starred": false,
+    "radioName": "Binghamton Approach",
+    "callsign": "BGM_H_APP",
+    "frequency": 127550000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "H",
+      "areaId": "01H2BCVDVZR0NVNZCYQ1MSM92W",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPPQNY9V461JEW2AN5ZP9A7",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Bignhamton Tower",
+    "callsign": "BGM_TWR",
+    "frequency": 119300000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "K",
+      "areaId": "01H9V700TH7HGKM8J3T6WHR1N2",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPQ0BCSHTSCWX1YR2A4380",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Binghamton Ground",
+    "callsign": "BGM_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "K",
+      "areaId": "01H9V700TH7HGKM8J3T6WHR1N2",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H9V55MGNYF81BN7CDDA12371",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "Binghampton Clearance Delivery",
+    "callsign": "BGM_DEL",
+    "frequency": 125050000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "K",
+      "areaId": "01H9V700TH7HGKM8J3T6WHR1N2",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H1EVSZH7E0MCVEBQKX60FB4J",
+    "name": "Harrisburg",
+    "starred": true,
+    "radioName": "Harrisburg Approach",
+    "callsign": "MDT_SW_APP",
+    "frequency": 124100000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "H",
+      "areaId": "01H2BB5GJCK0QQ9BCZP6FRHA7D",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H2BC0EN94FN53HDNAYQT5YXZ",
+    "name": "Lancaster",
+    "starred": false,
+    "radioName": "Harrisburg Approach",
+    "callsign": "MDT_SE_APP",
+    "frequency": 126450000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01H2BB5GJCK0QQ9BCZP6FRHA7D",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01H2BC1HK7E9JP6KCBQSTSNW0Z",
+    "name": "Ravine",
+    "starred": false,
+    "radioName": "Harrisburg Approach",
+    "callsign": "MDT_N_APP",
+    "frequency": 118250000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "R",
+      "areaId": "01H2BB5GJCK0QQ9BCZP6FRHA7D",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPPTJMHZ2C2BQ0KHFHM6CBR",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Harrisburg Tower",
+    "callsign": "MDT_TWR",
+    "frequency": 124800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V74F4X6A2EVG7BBKZDHFJ4",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPT2Z3Q9BNCZERCFS5CBH4",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Harrisburg Ground",
+    "callsign": "MDT_GND",
+    "frequency": 121700000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "T",
+      "areaId": "01H9V74F4X6A2EVG7BBKZDHFJ4",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ6YXTTJRHK1CEKPYBEX0P",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Capital City Tower",
+    "callsign": "CXY_TWR",
+    "frequency": 119500000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "C",
+      "areaId": "01H9V85WNYFPPZ1QB46Q2V7G20",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQ6CZM3ZNVYZGD5NGEGMNX",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Capital City Ground",
+    "callsign": "CXY_GND",
+    "frequency": 121900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "C",
+      "areaId": "01H9V85WNYFPPZ1QB46Q2V7G20",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQPNJA8Z3M3S1E8H3ME3XS",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "Lancaster Tower",
+    "callsign": "LNS_TWR",
+    "frequency": 120900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "M",
+      "areaId": "01H9VEHBF4Z12599Q3DRDBC56T",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQM6VNP1KZM36BMAPEDKB8",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Lancaster Ground",
+    "callsign": "LNS_GND",
+    "frequency": 121800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "M",
+      "areaId": "01H9VEHBF4Z12599Q3DRDBC56T",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPQT1B94S05N352RNJEEEG6",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "Muir Tower",
+    "callsign": "MUI_TWR",
+    "frequency": 126200000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GAPQSCM9NFN49M8SEBBVGW8T",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Muir Ground",
+    "callsign": "MUI_GND",
+    "frequency": 121625000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H1EVRNVKZ1C7XT0S6K6SDXMB",
+    "name": "Reading",
+    "starred": false,
+    "radioName": "Reading Approach",
+    "callsign": "RDG_APP",
+    "frequency": 125150000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "X",
+      "areaId": "01H2BD6JNVJ4Q8PH0476E9ESMD",
+      "colorSet": "Tcw"
+    }
+  },
+  {
+    "id": "01GAPPZ5AXKZZ4P724MQFMDPXR",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Reading Tower",
+    "callsign": "RDG_TWR",
+    "frequency": 119900000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01H9V7DDFR9Q98AR2CQF8FA5G3",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01GAPPYSW6D76MDMY5ND51J9HE",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Reading Ground",
+    "callsign": "RDG_GND",
+    "frequency": 121950000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01H9V7DDFR9Q98AR2CQF8FA5G3",
+      "colorSet": "Tdw"
+    }
+  },
+  {
+    "id": "01H2BCF764G4E7RMQMF5X3D5XF",
+    "name": "RAPCON",
+    "starred": false,
+    "radioName": "McGuire Approach",
+    "callsign": "WRI_APP",
+    "frequency": 126475000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "Y",
+      "areaId": "01H2BC920KV1AC5M0K7DCE8HCT",
+      "colorSet": "Dod"
+    }
+  },
+  {
+    "id": "01GAPQ1CCR5D4BFE8MNF3RRMZ9",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "McQuire Tower",
+    "callsign": "WRI_TWR",
+    "frequency": 118650000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "L",
+      "areaId": "01H9VF4YV40AM69YB0110D65QJ",
+      "colorSet": "Dod"
+    }
+  },
+  {
+    "id": "01GAPQ0TQ5K01NH7M4KCD4683J",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "McQuire Ground",
+    "callsign": "WRI_GND",
+    "frequency": 121800000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "G",
+      "areaId": "01H9VF4YV40AM69YB0110D65QJ",
+      "colorSet": "Dod"
+    }
+  },
+  {
+    "id": "01GAPQ01XE7EV48JE82CW78XX6",
+    "name": "Clearance Delivery",
+    "starred": false,
+    "radioName": "McQuire Clearance Delivery",
+    "callsign": "WRI_DEL",
+    "frequency": 135200000,
+    "eramConfiguration": null,
+    "starsConfiguration": {
+      "subset": 1,
+      "sectorId": "C",
+      "areaId": "01H9VF4YV40AM69YB0110D65QJ",
+      "colorSet": "Dod"
+    }
+  },
+  {
+    "id": "01GAPQV9DBA8B7WPBJXZZXA8NM",
+    "name": "Tower",
+    "starred": false,
+    "radioName": "Lakehurst Tower",
+    "callsign": "NEL_TWR",
+    "frequency": 127775000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01GAPQTNTNZAF6T227BJ3NM8YY",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Lakehurst Ground",
+    "callsign": "NEL_GND",
+    "frequency": 118375000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H3XJJ44ZKTF0TTXV1WP8V470",
+    "name": "Local",
+    "starred": true,
+    "radioName": "Williamsport Tower",
+    "callsign": "IPT_TWR",
+    "frequency": 119100000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01H3XJKXRYJ64ZK082YHTMKA4G",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Williamsport Ground",
+    "callsign": "IPT_GND",
+    "frequency": 121975000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01HAJDF8CNM7ZQP95QF8DCDJZS",
+    "name": "Local",
+    "starred": false,
+    "radioName": "University Park Tower",
+    "callsign": "UNV_TWR",
+    "frequency": 128475000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01HAJDNZZ8147EACB1SA9Y35P7",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "University Park Ground",
+    "callsign": "UNV_GND",
+    "frequency": 125725000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01HH3BNXGNCXT71ENSWWZWF7JZ",
+    "name": "Local",
+    "starred": false,
+    "radioName": "Bermuda Tower",
+    "callsign": "BDA_TWR",
+    "frequency": 118100000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  },
+  {
+    "id": "01HH3BNKBRDNWGHV09NK5TXHGH",
+    "name": "Ground",
+    "starred": false,
+    "radioName": "Bermuda Ground",
+    "callsign": "BDA_GND",
+    "frequency": 124500000,
+    "eramConfiguration": null,
+    "starsConfiguration": null
+  }
+]
