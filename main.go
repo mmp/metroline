@@ -7,7 +7,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"maps"
 	"math"
 	"net/http"
 	"slices"
@@ -135,15 +134,24 @@ type Position struct {
 	} `json:"starsConfiguration"`
 }
 
-type MajorAirport struct {
-	Satellites []string
-	Location   [2]float32
-}
-
 // convert -resize 20x20 ~/Downloads/ZNY-Mediakit/ZNY-transparent-black-1000x1000px.png zny.png
 //
 //go:embed zny.png
 var znyPNG []byte
+
+type Airport struct {
+	Name     string
+	Location [2]float32
+}
+
+func (a Airport) DistanceTo(p [2]float32) float32 {
+	return NMDistance2LL(a.Location, p)
+}
+
+type MajorAirport struct {
+	Airport
+	Satellites []Airport
+}
 
 func main() {
 	state, err := FetchVATSIMState()
@@ -153,18 +161,41 @@ func main() {
 
 	// Filter down to the traffic we're interested in reporting.
 	// Majors and their sats.
-	n90 := map[string]MajorAirport{
-		"KJFK": MajorAirport{
-			Satellites: []string{"KFRG", "KISP", "KOXC", "KFOK", "KBDR", "KHVN"},
-			Location:   [2]float32{-73.780968, 40.641766},
+	n90 := []MajorAirport{
+		MajorAirport{
+			Airport: Airport{
+				Name:     "KJFK",
+				Location: [2]float32{-73.780968, 40.641766},
+			},
+			Satellites: []Airport{
+				Airport{Name: "KFRG", Location: [2]float32{-73.4134208, 40.7292742}},
+				Airport{Name: "KISP", Location: [2]float32{-73.1006651, 40.7961357}},
+				Airport{Name: "KOXC", Location: [2]float32{-73.1351825, 41.4782806}},
+				Airport{Name: "KFOK", Location: [2]float32{-72.6318119, 40.8436186}},
+				Airport{Name: "KBDR", Location: [2]float32{-73.1261758, 41.1634808}},
+				Airport{Name: "KHVN", Location: [2]float32{-72.8877292, 41.2637247}},
+			},
 		},
-		"KLGA": MajorAirport{
-			Satellites: []string{"KDXR", "KHPN"},
-			Location:   [2]float32{-73.87261, 40.77724},
+		MajorAirport{
+			Airport: Airport{
+				Name:     "KLGA",
+				Location: [2]float32{-73.87261, 40.77724},
+			},
+			Satellites: []Airport{
+				Airport{Name: "KDXR", Location: [2]float32{-73.4821894, 41.3715344}},
+				Airport{Name: "KHPN", Location: [2]float32{-73.7075661, 41.0669531}},
+			},
 		},
-		"KEWR": MajorAirport{
-			Satellites: []string{"KTEB", "KCDW", "KMMU"},
-			Location:   [2]float32{-74.174538, 40.689491},
+		MajorAirport{
+			Airport: Airport{
+				Name:     "KEWR",
+				Location: [2]float32{-74.174538, 40.689491},
+			},
+			Satellites: []Airport{
+				Airport{Name: "KTEB", Location: [2]float32{-74.0608333, 40.8501111}},
+				Airport{Name: "KCDW", Location: [2]float32{-74.2813503, 40.8752247}},
+				Airport{Name: "KMMU", Location: [2]float32{-74.4148886, 40.7993383}},
+			},
 		},
 	}
 	n90dep, n90arr, n90count := CountTraffic(state, n90)
@@ -192,48 +223,73 @@ func main() {
 
 		for _, ctrl := range online {
 			s := time.Since(ctrl.Logon)
-			online := ""
-			if s.Hours() > 0 {
-				online = fmt.Sprintf("%d:", int(s.Hours()))
-			}
-			online += fmt.Sprintf("%02d", int(s.Minutes())-60*int(s.Hours()))
-
-			fmt.Printf("%s - %s (%s) | font=Monaco | href=https://nyartcc.org/controller/%d\n", ctrl.Callsign, ctrl.Name, online, ctrl.CID)
+			h, m := int(s.Hours()), int(s.Minutes())-60*int(s.Hours())
+			fmt.Printf("%-9s %s (%d:%02d) | font=Monaco | href=https://nyartcc.org/controller/%d\n",
+				ctrl.Callsign, ctrl.Name, h, m, ctrl.CID)
 		}
 	}
 
 	// Traffic
 	fmt.Printf("---\n")
-	for _, major := range slices.Sorted(maps.Keys(n90)) {
-		fmt.Printf("%s %2d🛫 %2d🛬 | font=Monaco | href=https://vatsim-radar.com/airport/%s\n", major, n90dep[major], n90arr[major], major)
+	for _, major := range n90 {
+		fmt.Printf("%s %2d🛫 %2d🛬 | font=Monaco | href=https://vatsim-radar.com/airport/%s\n", major.Name,
+			n90dep[major.Name], n90arr[major.Name], major.Name)
 	}
 }
 
-func CountTraffic(state *VATSIMState, airports map[string]MajorAirport) (map[string]int, map[string]int, int) {
-	major := func(ap string) (string, [2]float32) { // return corresponding major
-		if info, ok := airports[ap]; ok { // it is a major
-			return ap, info.Location
-		}
-		for major, info := range airports {
-			if slices.Contains(info.Satellites, ap) { // satellite
-				return major, info.Location
+func CountTraffic(state *VATSIMState, airports []MajorAirport) (map[string]int, map[string]int, int) {
+	major := func(ap string) *Airport { // return corresponding major
+		for _, major := range airports {
+			if major.Name == ap {
+				return &major.Airport
+			}
+			for _, sat := range major.Satellites {
+				if sat.Name == ap {
+					return &major.Airport
+				}
 			}
 		}
-		return "", [2]float32{} // n/a
+		return nil
 	}
 
 	dep, arr := make(map[string]int), make(map[string]int)
 	count := 0
 	for _, pilot := range state.Pilots {
 		pilotLoc := [2]float32{pilot.Longitude, pilot.Latitude}
-		// Count departures that are within 30 miles of the center
-		if major, loc := major(pilot.FlightPlan.Departure); major != "" && NMDistance2LL(loc, pilotLoc) < 30 {
-			dep[major] = dep[major] + 1
-			count++
+
+		// If it's >500nm from the first major (whatever it is), don't
+		// consider it further.
+		if airports[0].DistanceTo(pilotLoc) > 500 {
+			continue
 		}
+
+		// Count departures that are within 10 miles of the departure field
+		if major := major(pilot.FlightPlan.Departure); major != nil && major.DistanceTo(pilotLoc) < 30 {
+			dep[major.Name] = dep[major.Name] + 1
+			count++
+		} else if pilot.Groundspeed < 20 && pilot.FlightPlan.Departure == "" {
+		loop:
+			// Look for aircraft without a flight plan on the ground at one of the airports.
+			for _, major := range airports {
+				if major.DistanceTo(pilotLoc) < 3 {
+					dep[major.Name] = dep[major.Name] + 1
+					count++
+					break
+				}
+
+				for _, sat := range major.Satellites {
+					if sat.DistanceTo(pilotLoc) < 3 {
+						dep[major.Name] = dep[major.Name] + 1
+						count++
+						break loop
+					}
+				}
+			}
+		}
+
 		// Arrivals within 300 miles but must also be moving
-		if major, loc := major(pilot.FlightPlan.Arrival); major != "" && NMDistance2LL(loc, pilotLoc) < 300 && pilot.Groundspeed > 20 {
-			arr[major] = arr[major] + 1
+		if major := major(pilot.FlightPlan.Arrival); major != nil && major.DistanceTo(pilotLoc) < 300 && pilot.Groundspeed > 20 {
+			arr[major.Name] = arr[major.Name] + 1
 			count++
 		}
 	}
