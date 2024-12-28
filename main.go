@@ -224,7 +224,7 @@ func main() {
 		for _, ctrl := range online {
 			s := time.Since(ctrl.Logon)
 			h, m := int(s.Hours()), int(s.Minutes())-60*int(s.Hours())
-			fmt.Printf("%-9s %s (%d:%02d) | font=Monaco | href=https://nyartcc.org/controller/%d\n",
+			fmt.Printf("%-10s %s (%d:%02d) | font=Monaco | href=https://nyartcc.org/controller/%d\n",
 				ctrl.Callsign, ctrl.Name, h, m, ctrl.CID)
 		}
 	}
@@ -300,7 +300,19 @@ func CountTraffic(state *VATSIMState, airports []MajorAirport) (map[string]int, 
 func ActiveControllers(state *VATSIMState, positions []Position) []Controller {
 	var online []Controller
 	for _, ctrl := range state.Controllers {
-		if slices.ContainsFunc(positions, func(p Position) bool { return p.Name == ctrl.Callsign }) {
+		// Cleanup relief callsigns before checking if they apply.
+		// Remove all numbers.
+		callsign := strings.Map(func(r rune) rune {
+			if r >= '0' && r <= '9' {
+				return -1
+			}
+			return r
+		}, ctrl.Callsign)
+		// Given e.g. LGA_1_TWR, we may now have callsigns like LGA__TWR. Nuke the extra _.
+		callsign = strings.ReplaceAll(callsign, "__", "_")
+
+		// Now check to see if we care about the controller.
+		if slices.ContainsFunc(positions, func(p Position) bool { return p.Name == callsign }) {
 			online = append(online, ctrl)
 		}
 	}
